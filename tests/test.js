@@ -11,7 +11,7 @@ fixture `A set of examples that illustrate how to use TestCafe API`
     })
     .afterEach(async t => {
         await t
-            .expect(page.header.innerText).eql('This webpage is used as a sample in TestCafe tutorial1s.');
+            .expect(page.header.innerText).eql('This webpage is used as a sample in TestCafe tutorials.');
     });
 
 // Tests
