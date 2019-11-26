@@ -1,14 +1,18 @@
 import Page from './page-model';
 
+// Page model
+const page = new Page();
+
 fixture `A set of examples that illustrate how to use TestCafe API`
     .page `https://devexpress.github.io/testcafe/example/`
     .beforeEach(async t => {
         await t
             .maximizeWindow();
+    })
+    .afterEach(async t => {
+        await t
+            .expect(page.header.innerText).eql('This webpage is used as a sample in TestCafe tutorial1s.');
     });
-
-// Page model
-const page = new Page();
 
 // Tests
 test('Text typing basics', async t => {

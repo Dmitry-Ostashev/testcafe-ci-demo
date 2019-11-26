@@ -11,6 +11,7 @@ class Feature {
 
 export default class Page {
     constructor () {
+        this.header                = Selector('.main-content header p');
         this.nameInput             = Selector('#developer-name');
         this.triedTestCafeCheckbox = Selector('#tried-test-cafe');
         this.populateButton        = Selector('#populate');
