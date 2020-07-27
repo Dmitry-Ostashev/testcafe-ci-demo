@@ -3,7 +3,8 @@
         "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml"
     },
     "devDependencies": {
-        "testcafe": "^1.3.3",
+        "testcafe": "^1.8.8",
+        "testcafe-browser-provider-browserstack": "^1.13.0",
         "testcafe-reporter-xunit": "^2.1.0"
     }
 }
