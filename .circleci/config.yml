@@ -1,8 +1,11 @@
 version: 2
+orbs:
+  node: circleci/node@4.4.0
+  browser-tools: circleci/browser-tools@1.1.0
 jobs:
   build:
     docker:
-      - image: circleci/node:10.16.0-jessie-browsers
+      - image: cimg/node:lts-browsers
 
     working_directory: ~/repo
 
