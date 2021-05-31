@@ -1,10 +1,10 @@
 {
     "scripts": {
-        "test": "testcafe chrome:headless tests/**/* -r dashboard,xunit:report.xml"
+        "test": "testcafe chrome:headless tests/**/* -r xunit:report.xml"
     },
     "devDependencies": {
         "testcafe": "^1.14.2",
-        "testcafe-reporter-dashboard": "file:testcafe-reporter-dashboard-0.1.1.tgz",
+        "testcafe-reporter-dashboard": "0.1.0",
         "testcafe-reporter-xunit": "^2.1.0"
     }
 }
