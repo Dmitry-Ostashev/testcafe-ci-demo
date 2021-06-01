@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "test": "testcafe chrome:headless tests/**/* -e,–reporter spec,xunit:с:\\report.xml"
+        "test": "testcafe chrome:headless tests/**/* -e,–reporter spec,xunit:c:\\Users\\ostashev.dmitry.CORP\\Documents\\report.xml"
     },
     "devDependencies": {
         "testcafe": "^1.14.2",
